@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 
 BASE_URL = 'https://www.supremenewyork.com/shop/'
 MAX_ITEMS_TO_VISIT_PER_TAB = 500
-DROP_TIME = "19:44:00"
+DROP_TIME = "10:00:00"
 FIRST_PAGE = True
 
 total_site_cost = 0

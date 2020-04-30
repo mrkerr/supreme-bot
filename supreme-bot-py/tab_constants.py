@@ -1,8 +1,8 @@
 class TabConstants():
 
   POSSIBLE_TABS = [
-    ['new', False], # 0
-    ['all', True], # 1
+    ['new', True], # 0
+    ['all', False], # 1
     ['jackets', False], # 2
     ['shirts', False], # 3
     ['tops_sweaters', False], # 4
@@ -17,4 +17,4 @@ class TabConstants():
     ['skate', False], # 13
   ]
 
-  LAST_TAB_INDEX = 1
+  LAST_TAB_INDEX = 0

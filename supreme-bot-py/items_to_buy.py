@@ -1,4 +1,4 @@
-class ItemsToBuy():
+class ItemsToBuyTemp():
   items = {
     'Big Letter Track Jacket' : 'Dark Orange',
     'Beaded Keychain' : 'Red',
@@ -9,7 +9,7 @@ class ItemsToBuy():
   items_categories = ['tops-sweaters', 'accessories', 'jackets', 'shirts']
 
 
-class ItemsToBuyReal():
+class ItemsToBuy():
   items = {
     'Cutout Logo Crewneck': 'Red',
     'Motion Logo Cruiser Skateboard': 'Black',
