@@ -13,3 +13,21 @@ class CardConstants():
   MON = '06'
   YER = '2022'
   CEV = '123'
+
+
+class PersonalConstantsReal():
+  NAME = 'Peyton West'
+  EMAIL = 'Peyton45w@gmail.com'
+  TEL = '2176389376'
+  ADDR = '2924 tanner rd'
+  APT = ''
+  ZIP = '62702'
+  CITY = 'Springfield'
+  STATE = 'IL'
+
+
+class CardConstantsReal():
+  NUM = '5162260000143928'
+  MON = '05'
+  YER = '2021'
+  CEV = '935'
