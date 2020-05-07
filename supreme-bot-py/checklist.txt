@@ -1,4 +1,32 @@
-Tab_constants are in correct order
-Last index tab constant is specified
-Drop time is specified
-Max items to visit is specified
+All the editing for a drop can be done in constants/constants.py
+
+Set the drop time to a few seconds before the actual time (use local military time)
+Once the time you specify hits, the bot will start refreshing every 0.5 seconds
+
+Make sure TEST_MODE is set to False, with no quotes, before a drop or it won't run
+
+Make sure you use single quotes for everything
+
+To add more items, put a comma after all except the last item. For example:
+  items = [
+    'Supreme®/Barbour® Waxed Cotton Camp Cap',
+    'Overdyed Hooded Sweatshirt',
+    'Debossed Ashtray'
+  ]
+
+Same idea with items categories, put all the categories for the items you're targetting.
+(so if you wanted a hat and a hoodie, the categories would be 'hats' and 'sweatshirts')
+
+Make sure all the personal and card info is fiilled out as well, and make sure to leave the hyphens in
+
+For size targets, put the sizes in the order you want the bot to attempt to select
+So if you want it to try small first, then large, the medium, it should look like:
+  sizes = [
+    'small', 
+    'large', 
+    'medium'
+  ]  
+BE SURE THAT THERE ARE ALWAYS THREE SIZES SPECIFIED
+(if you don't specify three target sizes it will break)
+
+Make sure to use capital letters for item names and sizes

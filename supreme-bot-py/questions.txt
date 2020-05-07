@@ -1,8 +1,0 @@
-1) Which tab(s) should it target?
-2) Should it only target the first x amount in a tab?
-2) Max total cost?
-3) Checkout after each item? or after adding all of them to the cart?
-4) Payment info (name, address, phone, email, credit card #, expiration, cvv)
-
-
-
