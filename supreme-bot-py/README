@@ -1,0 +1,46 @@
+FOR THE BOT TO KNOW YOUR INFO YOU NEED TO CREATE THE CONSTANTS
+
+1) IN THIS DIRECTORY, CREATE A NEW FOLDER CALLED 'constants'
+2) IN THAT DIRECTORY, CREATE A FILE CALLED 'constants.py'
+3) OPEN UP constants.py
+4) COPY EVERYTHING BETWEEN THE TICKS INTO THE FILE
+
+```
+class PersonalConstants():
+  NAME = 'Your Name'
+  EMAIL = 'email@gmail.com'
+  TEL = '123-456-789'
+  ADDR = '123 Main St'
+  APT = ''
+  ZIP = '12345'
+  CITY = 'Springfield'
+  STATE = 'IL'
+
+
+class CardConstants():
+  NUM = '1234-1234-1234-1234'
+  MON = '05'
+  YER = '2020'
+  CEV = '123'
+
+
+class ItemsToBuy():
+  items = [
+    'Supreme®/Barbour® Waxed Cotton Camp Cap',
+    'Overdyed Hooded Sweatshirt',
+    'Hourglass Raglan L/S Top'
+  ]
+  items_categories = [
+    'sweatshirts', 
+    'hats',
+    'tops'
+  ]
+
+class DropInfo():
+  URL = 'https://www.supremenewyork.com/shop/new'
+  DROP_TIME = "09:59:58"
+  TEST_MODE = False
+```
+
+THAT'S IT YOU'RE ALL SET. FOR HELP WITH ADDING YOUR OWN INFO TO THIS FILE
+AND FOR GETTING READY FOR A DROP, CHECKOUT checklist.txt
