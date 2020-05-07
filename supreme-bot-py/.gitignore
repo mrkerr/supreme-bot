@@ -1,1 +1,4 @@
 constants/*
+.vscode/
+__pycache__/
+geckodriver.log

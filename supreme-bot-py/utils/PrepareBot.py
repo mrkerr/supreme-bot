@@ -58,6 +58,5 @@ class PrepareBot():
             print(first_item)
 
     def get_and_wait(self):
-
         self.driver.get(self.url)
         self.__wait_for_drop_time()
